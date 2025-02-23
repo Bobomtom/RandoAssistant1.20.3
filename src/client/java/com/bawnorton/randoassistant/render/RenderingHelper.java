@@ -61,8 +61,7 @@ public class RenderingHelper {
                         block instanceof CandleCakeBlock ||
                         block instanceof AttachedStemBlock ||
                         block instanceof FrostedIceBlock ||
-                        block instanceof AbstractFireBlock ||
-                        block instanceof BambooSaplingBlock) {
+                        block instanceof AbstractFireBlock) {
                     drawBlock(context, block, x, y);
                     return;
                 }

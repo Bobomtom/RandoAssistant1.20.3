@@ -2,9 +2,9 @@
   "required": true,
   "package": "com.bawnorton.randoassistant.mixin",
   "compatibilityLevel": "JAVA_17",
-  "mixins": [
+  "client": [
     "AbstractBlockMixin",
-    "AxeItemMixin",
+    //"AxeItemMixin",
     "BlockMixin",
     "CatEntitySleepWithOwnerGoalMixin",
     "CraftingScreenHandlerMixin",
@@ -12,11 +12,11 @@
     "GiveGiftsToHeroTaskMixin",
     "HoneycombItemMixin",
     "LivingEntityMixin",
-    "LootableContainerBlockEntityMixin",
+    //"LootableContainerBlockEntityMixin",
     "MerchantEntityMixin",
     "PacketByteBufMixin",
     "PiglinBrainMixin",
-    "PlayerAdvancementTrackerMixin",
+    //"PlayerAdvancementTrackerMixin",
     "RecipeUnlockerMixin",
     "ServerStatHandlerMixin",
     "StatMixin"

@@ -127,7 +127,7 @@ public class LootTableResultButton extends ClickableWidget {
     }
 
     @Override
-    public void renderButton(DrawContext context, int mouseX, int mouseY, float delta) {
+    public void renderWidget(DrawContext context, int mouseX, int mouseY, float delta) {
         context.drawGuiTexture(RESULT_BUTTON_TEXTURES.get(false, this.isHovered()), getX(), getY(), width, height);
         RenderingHelper.renderIdentifier(Objects.requireNonNullElse(source, Registries.ITEM.getId(Items.STRUCTURE_VOID)), context, 1, getX() + 4, getY() + 4, true);
         renderArrow(context, getX() + 24, getY() + 3);

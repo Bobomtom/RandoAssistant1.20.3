@@ -77,9 +77,9 @@ public abstract class InventoryScreenMixin extends AbstractInventoryScreenMixin 
             }
         }) {
             @Override
-            public void renderButton(DrawContext context, int mouseX, int mouseY, float delta) {
+            public void renderWidget(DrawContext context, int mouseX, int mouseY, float delta) {
                 if(!RandoAssistantClient.isInstalledOnServer) RenderSystem.setShaderColor(0.5f, 0.5f, 0.5f, 1);
-                super.renderButton(context, mouseX, mouseY, delta);
+                super.renderWidget(context, mouseX, mouseY, delta);
                 if(!RandoAssistantClient.isInstalledOnServer) RenderSystem.setShaderColor(1, 1, 1, 1);
             }
 
